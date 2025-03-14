@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cofee Maker UI</title>
+</head>
+<body>
+<div class="container">
+    <h2>COFFEE MACHINE</h2>
+    <h4>What would you like to take?</h4>
+    <div class="compositon">
+        <p id="water">
+            <!-- //Water composition goes here -->
+        </p>
+        <p id="milk">
+            <!-- //Milk composition goes here -->
+        </p>
+        <p id="coffee">
+            <!-- //Coffee composition goes here -->
+        </p>
+    </div>
+    <div class="coffee-buttons">
+        <button class="btn" id="esspresso">Esspresso</button>
+        <button class="btn" id="latte">Latte</button>
+        <button class="btn" id="cappucino">Cappucino</button>
+        <button class="btn" id="custom">Custom</button>        
+    </div>
+</div>
+<span class="space">space here</span>
+<div class="container">
+    <span class="water"> Water</span>
+    <span class="milk"> Milk</span>
+    <span class="coffee">Coffee</span>
+
+    <div class="ingredients">
+        <span class="water" id="watervolume"> 00</span>
+        <span class="milk" id="milkvolume"> 00</span>
+        <span class="coffee" id="coffeevolume">00</span>
+    </div>
+
+        <button class="btn actions" id="refill">Refill</button>
+
+
+</div>
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>

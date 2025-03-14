@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(102, 155, 155);
+    font-family: monospace;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1), 0 6px 6px rgb(0,0,0,0.1);
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 800px;
+}
+
+.btn {
+    border:none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px;
+    width: 100px;
+    background-color: chocolate;
+    font-family: monospace;
+    color: azure;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1), 0 6px 6px rgb(0,0,0,0.1);
+
+}
+.btn:active {
+    transform: scale(0.9);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+
+h4 {
+    opacity: 0.5;
+}
+
+
+
+#water {
+    margin: 5px 150px;
+    padding: 5px 3px;
+    background-color: aqua;
+    /* width: fit-content; */
+    border-radius: 20px;
+}
+
+#coffee {
+    margin: 10px 150px;
+    padding: 5px 3px;
+    background-color: rgb(94, 42, 6);
+    color: bisque;
+    border-radius: 20px;
+}
+
+
+span.water {
+    padding: 5px 3px;
+    background-color: aqua;
+    color: rgb(16, 15, 15);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px;
+    width: 100px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1), 0 6px 6px rgb(0,0,0,0.1);
+
+}
+
+span.milk {
+    padding: 5px 3px;
+    background-color: bisque;
+    color: rgb(16, 15, 15);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px;
+    width: 100px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1), 0 6px 6px rgb(0,0,0,0.1);
+
+}
+span.coffee {
+    padding: 5px 3px;
+    background-color: rgb(94, 42, 6);
+    color: bisque;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px;
+    width: 100px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.1), 0 6px 6px rgb(0,0,0,0.1);
+
+}
+
+.space {
+    height: 50px;
+    opacity: 0;
+}
+
+
+.ingredients {
+    margin: 50px 0px;
+}
+
+.actions {
+    background-color: black;
+    color: antiquewhite;
+}
